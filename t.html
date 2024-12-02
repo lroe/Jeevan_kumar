@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan Kumar Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-indigo-900 to-blue-900 text-white">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6">
+        <h1 class="text-3xl font-bold">Jeevan Kumar</h1>
+        <nav class="space-x-4 text-yellow-300">
+            <a href="https://www.linkedin.com/in/jeevan-kumar-0b951b252/" target="_blank" class="hover:underline">LinkedIn</a>
+            <a href="#work" class="hover:underline">Work</a>
+            <a href="#skills" class="hover:underline">Skills</a>
+            <a href="#articles" class="hover:underline">Articles</a>
+            <a href="#resume" class="hover:underline">Resume</a>
+            <a href="#" class="hover:underline">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="hover:underline">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="p-6 flex flex-col md:flex-row items-center">
+        <div class="md:w-2/3">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="mb-4">I'm Jeevan Kumar, a computer engineer. My adventure with programming started when I was tinkering with a game engine called GameMaker, trying to build simple games. Over time, I dove deeper into fascinating areas like machine learning and application development, exploring how these technologies work and how they can solve real-world problems. I had the chance to lead a team in a national medical hackathon by ScaleUp, and we won an award for The Most Innovative Project. Academically, I scored 92.1% in my ICSE 10th board, 93.3% in CBSE 12th, and my current CGPA is 7.86. Now, I’m looking to apply my skills in the real world.</p>
+            <p class="mb-4">I served as a subpanel member for the IEDC CET in the year 2022-23.</p>
+            <p><a href="https://drive.google.com/file/d/1ExqzyKp5fAkYoUE0Q2iEayuSTFzJw7hp/view?usp=sharing" target="_blank" class="text-yellow-300 hover:underline">IEDC Submission</a></p>
+        </div>
+        <div class="md:w-1/3 mt-6 md:mt-0">
+            <img src="jeevan.jpg" alt="Jeevan Kumar" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" class="shadow-lg">
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="p-6">
+        <h2 class="text-2xl font-bold mb-4">Work</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Project 1: Diagnox -->
+            <a href="https://github.com/lroe/Diagnox" target="_blank" class="bg-indigo-800 p-4 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                <h3 class="text-yellow-300 font-bold mb-2">Diagnox</h3>
+                <img src="1.jpg" alt="Diagnox" class="mb-2 rounded">
+                <p>National level hackathon award-winning project focused on innovative medical solutions.</p>
+            </a>
+            <!-- Project 2: Automatic Lab LaTeX Builder -->
+            <a href="https://github.com/lroe/Automatic-Lab-Latex-Builder/tree/master" target="_blank" class="bg-indigo-800 p-4 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                <h3 class="text-yellow-300 font-bold mb-2">Automatic Lab LaTeX Builder</h3>
+                <img src="2.jpg" alt="Automatic Lab LaTeX Builder" class="mb-2 rounded">
+                <p>A tool to automate lab report generation with LaTeX formatting and terminal-like output images.</p>
+            </a>
+            <!-- Project 3: Location-Based Scream Detector -->
+            <a href="https://github.com/lroe/Location-Based-Scream-Detector" target="_blank" class="bg-indigo-800 p-4 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                <h3 class="text-yellow-300 font-bold mb-2">Location-Based Scream Detector</h3>
+                <img src="3.jpg" alt="Location-Based Scream Detector" class="mb-2 rounded">
+                <p>A project that detects screams in real-time, mapping their origin location using SVM algorithms.</p>
+            </a>
+            <!-- Project 4: Chrome Dinosaur Bot -->
+            <a href="https://github.com/lroe/chrome-dino-game" target="_blank" class="bg-indigo-800 p-4 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                <h3 class="text-yellow-300 font-bold mb-2">Chrome Dinosaur Bot</h3>
+                <img src="4.jpg" alt="Chrome Dinosaur Bot" class="mb-2 rounded">
+                <p>A reinforcement learning-based bot to automate the Chrome Dinosaur game and maximize the score.</p>
+            </a>
+            <!-- Project 5: Pong Game Using Java -->
+            <a href="https://github.com/lroe/ping-pong-java" target="_blank" class="bg-indigo-800 p-4 rounded-lg shadow-lg hover:transform hover:scale-105 transition-all">
+                <h3 class="text-yellow-300 font-bold mb-2">Pong Game Using Java</h3>
+                <img src="5.jpg" alt="Pong Game Using Java" class="mb-2 rounded">
+                <p>A classic Pong game developed using Java to demonstrate basic game mechanics.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Technical Articles Section -->
+    <section id="articles" class="p-6">
+        <h2 class="text-2xl font-bold mb-4">Technical Articles</h2>
+        <ul class="list-disc pl-5">
+            <li><a href="https://jeekuu.substack.com/p/how-to-make-llms-understand-what" target="_blank" class="text-yellow-300 hover:underline">How to Make LLMs Think</a></li>
+            <li><a href="https://www.quora.com/What-is-the-laziest-thing-you-have-ever-automated/answer/Jeevan-Kumar-411?ch=10&oid=57088411&share=f558097c&srid=OHmf7&target_type=answer" target="_blank" class="text-yellow-300 hover:underline">Quora Answer: What’s the laziest thing you’ve automated?</a></li>
+            <li><a href="https://drive.google.com/file/d/1CyhhVuMTwv5znVY3A4qW_uq7upebG_Vz/view" target="_blank" class="text-yellow-300 hover:underline">System to Route LLM Prompts to the Best Model</a></li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="p-6">
+        <h2 class="text-2xl font-bold mb-4">Resume</h2>
+        <p>Click below to view or download my resume:</p>
+        <a href="https://drive.google.com/file/d/1OTS-ePX1MN0UQf6_CMDmAqPw4A_uwx_A/view?usp=sharing" target="_blank" class="text-yellow-300 hover:underline">View Resume</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="p-6">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <span class="text-sky-400 font-semibold">Java</span>
+            <span class="text-sky-400 font-semibold">Python</span>
+            <span class="text-sky-400 font-semibold">C</span>
+            <span class="text-sky-400 font-semibold">JavaScript</span>
+            <span class="text-sky-400 font-semibold">HTML</span>
+            <span class="text-sky-400 font-semibold">CSS</span>
+            <span class="text-green-400 font-semibold">Machine Learning</span>
+            <span class="text-green-400 font-semibold">Deep Learning</span>
+            <span class="text-orange-400 font-semibold">MySQL</span>
+            <span class="text-orange-400 font-semibold">Agile</span>
+            <span class="text-indigo-300 font-semibold">PHP</span>
+            <span class="text-indigo-300 font-semibold">OOP</span>
+            <span class="text-indigo-300 font-semibold">DBMS</span>
+        </div>
+    </section>
+
+    <footer class="text-center p-6">
+        <p>&copy; 2024 Jeevan Kumar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
